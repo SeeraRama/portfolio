@@ -64,6 +64,10 @@ ul.sidebar.d__flex {
   top: 0%;
   flex-direction: column;
 }
+.logosize {
+  width: 80px;
+  height: 70px;
+}
 li.sideNavbar {
   padding: 25px 30px;
 }

@@ -1,8 +1,7 @@
 import React from "react";
 import "./About.css";
-import aboutImg from "../../img/about.jpg";
+import aboutImg from "../../img/Me.jpeg";
 function About() {
-  //  Up To Top Btn
   window.addEventListener("scroll", function () {
     const upToTop = document.querySelector("a.bottom__to__top");
     upToTop.classList.toggle("active", window.scrollY > 0);
@@ -18,24 +17,24 @@ function About() {
             <h1 className="about__heading">About Me</h1>
             <div className="about__meta">
               <p className="about__text p__color">
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered in some form, by injected humour,
-                or randomised words which dont look even slightly believable. If
-                you are going to use a passage of Lorem Ipsum,
+                Software Developer with 6 years of experience in client
+                interactions, software designing and development. Possess
+                excellent communication and coordination skills. Proficient in
+                adapting to technologies and delivering quality solutions within
+                timeline.
               </p>
               <p className="about__text p__color">
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered in some form, by injected humour,
-                or randomised words which dont look even slightly believable. If
-                you are going to use a passage of Lorem Ipsum,
-              </p>
-              <p className="about__text p__color">
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered in some form, by injected humour,
+                Experienced Software Engineer with a demonstrated history of
+                working in the computer software industry. Skilled in
+                OutSystems, React, React Native, SQL, Rapid Application
+                Development (RAD ), Agile Methodologies, and Data Structures.
+                Strong engineering professional with a Master of Computer
+                Applications (MCA) focused in Computer Science from Maulana Azad
+                National Institute of Technology.
               </p>
               <div className="about__button d__flex align__items__center">
                 <a href="#">
-                  <button className="about btn pointer">Download Cv</button>
+                  <button className="about btn pointer">Download CV</button>
                 </a>
                 <a href="#">
                   <button className="about btn pointer">Hire Me</button>

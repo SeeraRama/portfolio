@@ -9,13 +9,12 @@ function Home() {
     header.classList.toggle("active", window.scrollY > 0);
   });
   // Toogle Menu
-  const [show, setShow] = useState(false);
   return (
     <div className="home" id="Home">
       <div className="home__bg">
         <div className="header d__flex align__items__center pxy__30">
           <div className="logo">
-            <img src={logo} alt="" />
+            <img src={logo} alt="" className="logosize" />
           </div>
           <div className="navigation pxy__30">
             <ul className="navbar d__flex">
